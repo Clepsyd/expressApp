@@ -20,6 +20,6 @@ app.get('/name-your-potato', function (req, res) {
   });
 })
 
-const server = app.listen(port, function () {   
+app.listen(port, function () {   
    console.log("Example app listening at port %s", port)
 });
